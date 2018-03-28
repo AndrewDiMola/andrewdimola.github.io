@@ -14,4 +14,4 @@ As stated earlier, Base Class Plus can (eventually) be played in standalone inst
 
 Here's an example of what I'm building towards using my super-awesome MS Paint skills sprites and some sprites borrowed from Final Fantasy I (Square Enix Co., Ltd.). Note: these sprites will not be used in the final product, and are only used for demonstration purposes.
 
-![Base Class Plus Battle]("images/battlefield_example.png")
+![Base Class Plus Battle](images/battlefield_example.png)
