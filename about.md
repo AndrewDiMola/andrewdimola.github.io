@@ -3,9 +3,6 @@ layout: page
 title: About
 permalink: /about/
 ---
-
-## Base Class Plus
-
 [Base Class Plus](https://github.com/AndrewDiMola/Base-Class-Plus) is a tactical role-playing game (TRPG) that can (eventually) be played in standalone instances. My end goal is to have this game be playable à la the Jackbox model, where a phone, tablet, laptop, or other web-enabled device is used as a controller.
 
 Back when I was younger, I was really into TRPGs like Final Fantasy Advance (and, when I became older, Final Fantasy Tactics), and was often frustrated because to play that style game with a friend, I would need to 1) convince them to buy the game, 2) convince them to play the game long enough to unlock multiplayer, and, finally, 3) convince them to level up their characters at a rate similar to my own. So, yeah, I never really had a chance to play this style of game in multiplayer mode. That's why the Jackbox-style multiplayer method is so appealing: anyone can play anywhere, so long as their device is charged and they actually want to play.
