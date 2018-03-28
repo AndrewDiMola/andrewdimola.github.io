@@ -1,9 +1,9 @@
 ---
-layout: page
-title: About
-permalink: /about/
+layout: post
+title:  "An Introduction to the Game"
+date:   2018-03-28 09:26:01 -0400
+categories: base-class-plus meta
 ---
-
 ## Base Class Plus
 
 [Base Class Plus](https://github.com/AndrewDiMola/Base-Class-Plus) is a tactical role-playing game (TRPG) that can (eventually) be played in standalone instances. My end goal is to have this game be playable à la the Jackbox model, where a phone, tablet, laptop, or other web-enabled device is used as a controller.
