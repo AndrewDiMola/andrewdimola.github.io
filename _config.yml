@@ -18,7 +18,6 @@ email:
 description: Andrew DiMola, Technical Writer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "andrewdimola.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: AndrewDiMola
 github_username: AndrewDiMola
 linkedin_username: andrewdimola
 
