@@ -6,4 +6,4 @@ While working as a technical writer for Sagitec Solutions, a company that specia
 
 For an example of one of these user guides, please see the below PDF.
 
-<object data="/samples/software-101-abbreviated-user-guide.pdf" width="75%" height="100%" type='application/pdf'/>
+<object data="/samples/software-101-abbreviated-user-guide.pdf" width="95%" height="100%" type='application/pdf'/>
