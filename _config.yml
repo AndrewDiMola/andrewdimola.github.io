@@ -21,6 +21,10 @@ url: "andrewdimola.github.io" # the base hostname & protocol for your site, e.g.
 github_username: AndrewDiMola
 linkedin_username: andrewdimola
 
+header_pages:
+  - about.md
+  - resume.md
+  
 # Build settings
 markdown: kramdown
 theme: minima
