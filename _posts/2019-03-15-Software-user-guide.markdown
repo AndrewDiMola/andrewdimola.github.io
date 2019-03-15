@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A user guide for a role-based software application"
+title:  "An abbreviated user guide"
 ---
 While working as a technical writer for Sagitec Solutions, a company that specializes in software solutions for pension administration and unemployment insurance, I designed and copy-edited user guides and software simulations used to guide client employees through the company's upcoming product releases.
 

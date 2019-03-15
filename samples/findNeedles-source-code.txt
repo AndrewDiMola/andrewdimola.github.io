@@ -1,0 +1,69 @@
+/**
+* The <code>Haystack</code> class contains a method for printing the number of occurrences of a string, or a number of strings, in a separate specified string.
+*
+* @version 1.0
+*/
+
+public class Haystack {	
+	/**
+    * Finds needles in a haystack and prints the number of occurrences for each needle to the "standard" output stream.
+    * <p>
+    * When calling this method, provide only 1 to 5 needles. Searching for more than 5 needles is not supported.
+    * <p>
+    * In addition, the haystack is case-sensitive and must be delimited with apostrophes ('), quotation marks ("), whitespace ( ), horizontal tab values (\t), newline values (\n), backspace values (\b), form feed values (\f), or carriage return values (\r).
+    * <p>
+    * The haystack "<code>foo bar foobar foo</code>", for example, yields the following results with these needles:
+    * <table border="1">
+    * 	<tr>
+    * 		<th>Needles</th>
+    * 		<th>Result</th>
+    * 	</tr>
+    * 	<tr>
+    * 		<td><code>{"foo"}</code></td>
+    * 		<td><code>foo: 2</code></td>
+    * 	</tr>
+    *   <tr>
+    * 		<td><code>{"foo", "bar"}</code></td>
+    * 		<td>
+    * 			<code>foo: 2</code><br>
+    * 			<code>bar: 1</code>
+    * 		</td>
+    * 	</tr>
+    *   <tr>
+    * 		<td><code>{"foo", "BAR", "foobar", "foo/bar"}</code></td>
+    * 		<td>
+    * 			<code>foo: 2</code><br>
+    * 			<code>BAR: 0</code><br>
+    *     	 	<code>foobar: 1</code><br>
+    * 			<code>foo/bar: 0</code>
+    * 		</td>
+    * 	</tr>
+    *   <tr>
+    * 		<td><code>{"foo", "BAR", "foobar", "foo/bar", "FOO", "Bar"}</code></td>
+    * 		<td><code>Too many words!</code></td>
+    * 	</tr>
+    * </table>
+    * 
+    * @param haystack The string that is used when searching for needles.
+    * @param needles Array of strings to be found in the haystack.
+    */	
+	public static void findNeedles(String haystack, String[] needles) {
+
+		if (needles.length > 5) {
+			System.err.println("Too many words!");
+		} else {
+			int[] countArray = new int[needles.length];
+			for (int i = 0; i < needles.length; i++) {
+				String[] words = haystack.split("[ \"\'\t\n\b\f\r]", 0);
+				for (int j = 0; j < words.length; j++) {
+					if (words[j].compareTo(needles[i]) == 0) {
+						countArray[i]++;
+					}
+				}
+			}
+			for (int j = 0; j < needles.length; j++) {
+				System.out.println(needles[j] + ": " + countArray[j]);
+			}
+		}
+	}
+}
