@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Using the PokéAPI"
+title:  "Create AJAX requests with the PokéAPI"
 ---
 The PokéAPI is a full RESTful API linked to an extensive database detailing everything about the Pokémon main game series.
 
