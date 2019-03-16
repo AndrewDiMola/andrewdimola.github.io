@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "An example JavaDoc"
+title:  "Example JavaDoc"
 ---
 This document demonstrates how a Java programmer would call a Java method named findNeedles. 
 I generated it using Java SE 11 with a tool called javadoc. 
