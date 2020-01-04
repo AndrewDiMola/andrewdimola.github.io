@@ -9,6 +9,6 @@ less bandwidth and memory; however, a service that uses the SOAP protocol may be
 suited for an enterprise application.
 
 For more information on the benefits of SOAP and REST, including why you may want to choose
-one architectural style over the other, see <a href="/samples/SOAP-and-REST.pdf">the PDF below</a>.
+one architectural style over the other, see <a href="/samples/SOAP-and-REST.pdf">the PDF</a>.
 
 <object style="min-height: 600px;" data="/samples/SOAP-and-REST.pdf" width="100%" height="100%" type='application/pdf'/>
