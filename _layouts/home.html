@@ -1,13 +1,13 @@
 ---
 layout: default
 ---
-
-{% for post in site.posts %}
-  <div>
-    <ul>
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </li>
-    </ul>
-  </div>
-{% endfor %}
+<h1 class="post-list-heading">Writing samples</h2>
+<div class="post-list">
+ {% for post in site.posts %}
+  <ul>
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  </ul>
+  {% endfor %}
+</div>
