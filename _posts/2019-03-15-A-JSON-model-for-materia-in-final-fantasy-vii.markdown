@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "A JSON model for materia in Final Fantasy VII"
+image: /images/ffvii-materia.jpg
 ---
 In Final Fantasy VII (a PlayStation video game created by Square), you can customize player characters with materia, orbs found in the in-game world that grant magical abilities and status effects.
 
