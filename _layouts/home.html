@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "Writing samples"
 ---
 
 <div class="home">
@@ -10,15 +11,14 @@ layout: default
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">Writing samples</h2>
     <ul class="post-list">
       {%- for post in site.posts -%}
       <li>
-        <h4>
+        <h2>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>
-        </h4>
+        </h2>
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
