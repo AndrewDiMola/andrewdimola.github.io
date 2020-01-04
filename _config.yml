@@ -22,7 +22,6 @@ github_username: AndrewDiMola
 linkedin_username: andrewdimola
 
 header_pages:
-  - home.md
   - resume.md
   - about.md
 
