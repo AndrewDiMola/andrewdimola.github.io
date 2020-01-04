@@ -7,7 +7,7 @@ I generated it using Java SE 11 with a tool called javadoc.
 Basically, at runtime, javadoc searches for various tags that a developer or technical writer embeds in Java source code, then it uses those tags to dynamically generate documentation. 
 I also included instructions for how the method works on the page.
 
-To view this JavaDoc, see <a href="/samples/haystack.pdf">the PDF below</a>.
+To view this JavaDoc, see <a href="/samples/haystack.pdf">the PDF</a>.
 
 If you'd like to see more, <a href="/samples/findNeedles-source-code.txt">read the source code</a>.
 
