@@ -3,6 +3,6 @@ layout: page
 title: About
 permalink: /about/
 ---
-Andrew DiMola works as a Documentation Engineer and lives in Delaware.
+[Andrew DiMola](https://twitter.com/AndrewDiMola) works as a Developer Educator and lives in New York City.
 
-![Andrew DiMola picture](/images/honey-nut-cheerios-andrew.jpg)
+![Picture of Andrew DiMola](/images/honey-nut-cheerios-andrew.jpg)
