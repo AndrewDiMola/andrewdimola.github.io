@@ -2,10 +2,11 @@
 layout: post
 title:  "Example JavaDoc"
 ---
-This document demonstrates how a Java programmer would call a Java method named findNeedles. 
+This document demonstrates how a Java programmer would call a Java method named `findNeedles`. 
 I generated it using Java SE 11 with a tool called javadoc. 
-Basically, at runtime, javadoc searches for various tags that a developer or technical writer embeds in Java source code, then it uses those tags to dynamically generate documentation. 
-I also included instructions for how the method works on the page.
+
+At runtime, javadoc searches for various tags that a developer or technical writer embeds in Java source code, then it uses those tags to dynamically generate documentation. 
+I included instructions that explain how to use the method on the page.
 
 To view this JavaDoc, <a href="/samples/haystack.pdf">open the PDF</a>.
 
